@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Веб-дизайнер Диана Сафина</title>
+</head>
+<body>
+<header>
+    <div>
+        <h1>Diana Safina</h1>
+    </div>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Обо мне</a></li>
+                <li><a href="cases.html">Портфолио</a></li>
+                <li><a href="price.html">Услуги</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<article>
+    <div>
+        <h1>Виды и стоимость услуг, которые я могу вам предложить</h1>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Услуга</th>
+                    <th>Сроки</th>
+                    <th>Цена</th>
+                    <th>Описание</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Одностраничный сайт</td>
+                    <td>7-21 дней</td>
+                    <td>от 20000 рублей</td>
+                    <td>Сайт из одной страницы с продающей структурой, которая призывает пользователя к совершению целевого действия</td>
+                </tr>
+                <tr>
+                    <td>Многостраничный сайт</td>
+                    <td>14-28 дней</td>
+                    <td>от 25000 рублей</td>
+                    <td>Сайт, состоящий из двух и более связанных между собой страниц, которые презентуют вашу компанию или бренд.</td>
+                </tr>
+                <tr>
+                    <td>Интернет-магазин</td>
+                    <td>21-42 дня</td>
+                    <td>от 30000 рублей</td>
+                    <td>Многостраничный сайт для продажи товаров или услуг с настройкой каталога, корзины, приема заявок и добавлением оплаты</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <div>
+        <h4>
+            Оставьте заявку, и я вам презвоню.
+        </h4>
+    </div>
+    <div>
+        <form>
+            <div>
+                <label for="name">Введите ваше имя</label>
+            </div>
+            <div>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="phone">Телефон в формате 89001234567</label>
+            </div>
+            <div>
+                <input type="tel" name="phone" id="phone" pattern="[0-9]{11}"/>
+            </div>
+            <div>
+                <label for="service">Выберете услугу</label>
+            </div>
+            <select name="service" id="service">
+                <option>Одностраничный сайт</option>
+                <option>Многостраничный сайт</option>
+                <option>Интернет-магазин</option>
+            </select>
+            <div>
+                <input type="submit" value="Оставить заявку" />
+            </div>
+        </form>
+    </div>
+</article>
+</body>
+</html>
